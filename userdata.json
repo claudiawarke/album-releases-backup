@@ -1,0 +1,54 @@
+{
+  "listenStatus": {
+    "4g944V0fgMbrZYEDG9E0OG": "later",
+    "43k99CXeU2JUO21G1F4WCP": "later",
+    "5V12ap591SmtretgcunhiO": "later",
+    "5OWgHgHicpG1vVjeWYyQab": "later",
+    "0VtyxuBnWiudcU8N1vIHQ7": "later",
+    "76KSGTIS8AaHn6er7gg3V8": "later",
+    "3wRHV5fOeUcM5hvYzWZsic": "listened",
+    "7jY0r3cjoRY6M3IqRb1m7H": "later",
+    "1aqg30bNvLSWgShZgX4oop": "later",
+    "0IAo42WYRRTgBtaRUCSMK1": "later",
+    "7ho5lLjKCYZuVACE9hAPmu": "later",
+    "5MTmDNt1UeWj9QlGP7F149": "later"
+  },
+  "ignoredAlbums": {
+    "4AXJv2lxOUj6eOyMRxJ2gA": false,
+    "74KM79TiuVKeVCqs8QtB0B": true,
+    "2LMNOP456EP": true,
+    "3wRHV5fOeUcM5hvYzWZsic": false,
+    "1aBaVtXpxJ4XHjIoUmQJ0g": false
+  },
+  "preReleaseStatus": {
+    "4g944V0fgMbrZYEDG9E0OG": false,
+    "76KSGTIS8AaHn6er7gg3V8": false,
+    "43k99CXeU2JUO21G1F4WCP": false,
+    "3wRHV5fOeUcM5hvYzWZsic": true,
+    "5quMTd5zeI9yW5UDua8wS4": true,
+    "5bBaoign62r1i7OV8w7mi9": true,
+    "1l0MA9iQ6UAnSFKU9SDeyt": true,
+    "2VjTqSwV1IY3a4kFdurCVv": true,
+    "3IGM1sXYke2UGII2DORrof": false
+  },
+  "songs": [],
+  "playlists": [
+    {
+      "name": "hate it but it's true, i'm fucking over you",
+      "url": "https://open.spotify.com/playlist/0U8F08lPjIbHaKb0Ew025n?si=67faad7d1a054fd1",
+      "tags": [
+        "english",
+        "pop"
+      ]
+    },
+    {
+      "name": "if i would have met you in five years",
+      "url": "https://open.spotify.com/playlist/17DXe7rJaQm6eqFLxBoW0p?si=bdedb79187cf4762",
+      "tags": [
+        "english",
+        "indie",
+        "love"
+      ]
+    }
+  ]
+}
