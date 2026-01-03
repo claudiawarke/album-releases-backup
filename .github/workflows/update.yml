@@ -1,0 +1,42 @@
+name: Update Spotify Albums
+
+# Allow workflow to push changes
+permissions:
+  contents: write
+
+# Triggers
+on:
+  workflow_dispatch:     # Manual run
+  schedule:
+    - cron: "0 3 * * *"   # 3 AM UTC
+    - cron: "0 11 * * *"  # 11 AM UTC
+    - cron: "0 19 * * *"  # 7 PM UTC
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout repository with push access
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      # Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # Run update script
+      - name: Run update.js
+        run: node scripts/update.js
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add albums.json
+          git commit -m "Daily album update" || echo "No changes"
+          git push
